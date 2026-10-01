@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>Minha Lista de Tarefas</h1>
+            <p class="subtitle">Organize suas tarefas de forma simples</p>
+
+            <div class="input-area">
+                <input 
+                    type="text" 
+                    id="taskInput" 
+                    placeholder="Digite uma nova tarefa..."
+                >
+                <button id="addButton">Adicionar</button>
+            </div>
+
+            <ul id="taskList"></ul>
+
+            <div class="footer">
+                <span id="taskCount">0 tarefas</span>
+                <button id="clearButton">Limpar concluídas</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
